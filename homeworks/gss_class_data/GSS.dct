@@ -1,0 +1,4 @@
+infile dictionary {
+    _column(1)    numeric                             CLASS_   %20f  "Subjective class identification"
+   _column(21)    numeric                            FINRELA   %20f  "Opinion of family income"
+}

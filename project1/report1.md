@@ -48,9 +48,7 @@ I obtain yearly median incomes (1971 to 2015) in 2015 dollars from the Census Bu
 
 Once I have income classes, I conduct pairwise comparisons to discover what classes respondents with a particular income identify as. I visualize the pairwise comparisons with a confusion matrix (part of `pandas_ml` library), in which income classes are on the x-axis and subjective classes are on the y-axis. Each cell of the 4-by-4 matrix is colored by density.  
 
-<div style="text-align:center"><img src ="Project1Figures/confusion_matrix.png"/></div>
-
-<br>
+<p align="center"> <img src ="Project1Figures/confusion_matrix.png"/> </p>
 
 The following observations can be made regarding the confusion matrix:
 - Most of the subjective classes are working or middle class.

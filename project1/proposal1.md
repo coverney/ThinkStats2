@@ -24,7 +24,7 @@ After doing some basic research, I found that in 2017, the middle class correspo
 
 My next step involved converting all of the income data into classes and plotting a histogram of reported and calculated classes.    
 
-<div style="text-align:center"><img src ="Project1Figures/histogram.png"/></div>
+<p align="center"> <img src ="Project1Figures/histogram.png"/> </p>
 
 <br>
 

@@ -24,7 +24,9 @@ After doing some basic research, I found that in 2017, the middle class correspo
 
 My next step involved converting all of the income data into classes and plotting a histogram of reported and calculated classes.    
 
-![Histogram](Project1Figures/histogram.png)
+<div style="text-align:center"><img src ="Project1Figures/histogram.png"/></div>
+
+<br>
 
 According to the above histogram, it seems like people may think they are in a lower class than they actually are considering their incomes with most people considering themselves as part of the working or middle classes. The difference is especially apparent in the working class (more people think they are in that class compared to where their incomes say they are). Also, more people qualify as upper class than they think. This observation is beautifully summarized by Stephen Rose's quote that “because people tend to live in communities with similar incomes, they view themselves as being near the middle because their neighbors’ circumstances are similar to their own even if their incomes are significantly below or above the US median.”
 

@@ -10,23 +10,23 @@ Back in my hometown, many people consider themselves middle class regardless of 
 
 #### How does subjective class compare to income class?
 
-Social class is an interesting aspect of American culture that has been extensively studied in the past. In 2007, Michael Hout at UC Berkeley published a paper, ["How Class Works in Popular Conception"](http://ucdata.berkeley.edu/rsfcensus/papers/Hout-ClassIDJan07.pdf), which delves into what factors Americans consider when identifying their class. The paper uses data from the General Social Survey (GSS). Since an important component of data science involves data validation, I plan to compare my results with Hout's to determine whether we reach similar conclusions.
+Social class is an interesting aspect of American culture that has been extensively studied in the past. In 2007, Michael Hout at UC Berkeley published a paper, ["How Class Works in Popular Conception"](http://ucdata.berkeley.edu/rsfcensus/papers/Hout-ClassIDJan07.pdf), which delves into what factors Americans consider when identifying their class. The paper uses data from the General Social Survey (GSS). Since an important component of data science involves replication, I plan to compare my results with Hout's to determine whether we reach similar conclusions.
 
 ## Methodology and Results
 ### Data Processing
 All of the data I use in this project are from the [GSS dataset](https://gssdataexplorer.norc.org/). The General Social Survey (GSS) is a project of the independent research organization NORC at the University of Chicago, with principal funding from the National Science Foundation.
 
 GSS contains data for almost 6000 variables. The variables that I utilize include:
-- `realinc`: family income in 1986 dollars. This variable is a recode created by GSS from the other income variables. It contains data from 1972 to 2016. More information can be found [here](http://gss.norc.org/Documents/reports/methodological-reports/MR064.pdf).
-- `class`: subjective class. It contains data from 1972 to 2016 and has 3468 missing cases. The question associated with this variable is, "If you were asked to use one of four names for your social class, which would you say you belong in: the lower class, the working class, the middle class, or the upper class?" Class has four values:
+- `realinc`: family income in 1986 dollars. This variable is a recode created by GSS from the other income variables. It contains data from 1972 to 2016 with 62466 valid cases. More information can be found [here](http://gss.norc.org/Documents/reports/methodological-reports/MR064.pdf).
+- `class`: subjective class. It contains data from 1972 to 2016 and has 58998 valid cases. The question associated with this variable is, "If you were asked to use one of four names for your social class, which would you say you belong in: the lower class, the working class, the middle class, or the upper class?" Class has four values:
   - 1: lower class
   - 2: working class
   - 3: middle class
   - 4: upper class
-- `hompop`: household size. It contains data from 1972 to 2016 and has 6 missing cases. There is no question associated with this variable.
-- `year`: year of interview. This is recorded automatically for every respondent, so there are no missing cases.
-- `age`: pretty self-explanatory. It contains data from 1972 to 2016 and has 221 missing cases.
-- `wrkstat`: labor force status. It contains data from 1972 to 2016 and has 19 missing cases. The question associated with this variable is, "Last week were you working full time, part-time, going to school, keeping house, or what?" There are eight possible values:
+- `hompop`: household size. It contains data from 1972 to 2016 and has 62460 valid cases. There is no question associated with this variable.
+- `year`: year of interview. This is recorded automatically for every respondent, so there are no missing cases and 62466 valid cases.
+- `age`: pretty self-explanatory. It contains data from 1972 to 2016 and has 62245 valid cases.
+- `wrkstat`: labor force status. It contains data from 1972 to 2016 and has 62447 valid cases. The question associated with this variable is, "Last week were you working full time, part-time, going to school, keeping house, or what?" There are eight possible values:
   - 1: working fulltime
   - 2: working part-time
   - 3: temp not working
@@ -44,27 +44,36 @@ The most recent data in GSS is from 2016, which means that the most recent incom
 
 I obtain yearly median incomes (1971 to 2015) in 2015 dollars from the Census Bureau. (The median household size from 1971 to 2015 is 3, so I do not need to adjust the medians for household size.) For each respondent, I compute the proportions between respondent incomes and median incomes (matched by year) and then convert proportions to income classes.
 
-### Pairwise Comparisons
+### Comparing Income and Subjective Class
 
-Once I have income classes, I conduct pairwise comparisons to discover what classes respondents with a particular income identify as. I visualize the pairwise comparisons with a confusion matrix (part of `pandas_ml` library), in which income classes are on the x-axis and subjective classes are on the y-axis. Each cell of the 4-by-4 matrix is colored by density.  
+Once I have income classes, I can first separately visualize the distributions of subjective and income class before comparing them. I conduct my single variable explorations with Probability Mass Functions (or PMFs). A PMF maps each value to its probability (frequency expressed as a fraction of sample size).
+
+<p align="center"> <img src ="Project1Figures/pmf_subjective.png"/> </p>  
+
+The PMF for subjective class shows that most respondents identify as working or middle class. The probability of working class is slightly higher than the probability of middle class with both values being around 0.45. Additionally, the probability of lower class is slightly higher than the probability of upper class with both values being around 0.05.
+
+<p align="center"> <img src ="Project1Figures/pmf_income.png"/> </p>
+
+The PMF for income class has a different shape compared to the one for subjective class. The probability of working class is only 0.1 compared to 0.45. Since there are noticeably fewer respondents in the working-income class, the probabilities for lower, middle, and upper class all increase.
+
+With a better picture of what the distributions of income and subjective class look like, I conduct pairwise comparisons to discover what classes respondents with a particular income identify as. I visualize the pairwise comparisons with a confusion matrix (part of `pandas_ml` library), in which income classes are on the x-axis and subjective classes are on the y-axis. Each cell of the 4-by-4 matrix is colored by density.   
 
 <p align="center"> <img src ="Project1Figures/confusion_matrix.png"/> </p>
 
 The following observations can be made regarding the confusion matrix:
-- Most of the subjective classes are working or middle class.
 - Very few respondents proclaim themselves to be upper class even if their income classes are.
 - Respondents from the lower income class are more likely to consider themselves working class than lower or middle class.
 - There are not many people in the working income class. Those who are mainly characterize themselves as working class.
-- Most respondents lie in the middle-income class and they mainly characterize themselves as either working or middle class (with working class being more common).
-- Respondents from the upper-income class are more likely to consider themselves middle and then working class compared to upper class.
+- Most respondents lie in the middle-income class and they mainly characterize themselves as either working (26%) or middle class (22.3%).
+- Respondents from the upper-income class are more likely to consider themselves middle (13.3%) and then working class (4.2%) compared to upper class (1.9%).
 
-Overall, the confusion matrix provides support that most respondents characterize themselves as middle or working class. Income class does not wholly indicate subjective class. However, there are differences in subjective class based on income. For example, respondents in the lowest income class are more likely to consider themselves working class while respondents in the highest income class are more likely to consider themselves middle class.
+Overall, the confusion matrix supports the subjective class PMF in that most respondents characterize themselves as middle or working class. Furthermore, income class does not wholly indicate subjective class. However, there are some discernable differences in subjective class based on income. For example, respondents in the lowest income class are more likely to consider themselves working class while respondents in the highest income class are more likely to consider themselves middle class.
 
-### Data Validation
+### Analysis Replication
 
-After comparing income and subjective class, I attempt to replicate Hout's results. One of the main figures in his paper (Figure 1) shows the distribution of class identification for various family income ranges with a segmented bar graph. My first step in data validation involves replicating Hout's figure. Hout only includes employed respondents 25 years or older (due to absence bias of college students) from 2000 to 2004, so I create a subset of my `gss` dataframe. I define employment as `wrkstat` codes 1 to 3, which include working fulltime, working part-time, and temporarily not working. I also convert `realinc` from 1986 dollars to 2004 dollars (instead of 2015 dollars).
+After comparing income and subjective class, I attempt to replicate Hout's results. One of the main figures in his paper (Figure 1) shows the distribution of class identification for various family income ranges with a segmented bar graph. My first step in data validation involves replicating Hout's figure. Hout only includes employed respondents 25 years or older (due to the absence bias of college students) from 2000 to 2004, so I create a subset of my `gss` dataframe. I define employment as `wrkstat` codes 1 to 3, which include working fulltime, working part-time, and temporarily not working. I also convert `realinc` from 1986 dollars to 2004 dollars (instead of 2015 dollars). The sample size for this analysis is 5032 respondents.
 
-Hout is quite vague regarding his data processing procedure. He does not mention how he adjusts for inflation or defines employment. Furthermore, there is no mention of adjusting for household size. As a result, I generate segmented bar graphs with and without household size adjustment to see how the distribution of subjective class would change with a slight but potentially important modification to the data processing.
+While reading Hout's paper, I was not able to completely grasp his data processing procedure. I did not catch how he adjusts for inflation or defines employment. Furthermore, I believe there is no mention of adjusting for household size. As a result, I generate segmented bar graphs with and without household size adjustment to see how the distribution of subjective class would change with a slight but potentially important modification to the data processing.
 
 ![Data Validation](Project1Figures/validation3.svg)
 

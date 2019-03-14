@@ -56,18 +56,18 @@ The PMF for subjective class shows that most respondents identify as working or 
 
 The PMF for income class has a different shape compared to the one for subjective class. The probability of working class is only 0.1 compared to 0.45. Since there are noticeably fewer respondents in the working-income class, the probabilities for lower, middle, and upper class all increase.
 
-With a better picture of what the distributions of income and subjective class look like, I conduct pairwise comparisons to discover what classes respondents with a particular income identify as. I visualize the pairwise comparisons with a confusion matrix (part of `pandas_ml` library), in which income classes are on the x-axis and subjective classes are on the y-axis. Each cell of the 4-by-4 matrix is colored by density.   
+With a better picture of what the distributions of income and subjective class look like, I conduct pairwise comparisons to discover what classes respondents with a particular income identify as. I visualize the pairwise comparisons with a classification matrix (part of `pandas_ml` library), in which income classes are on the x-axis and subjective classes are on the y-axis. Each cell of the 4-by-4 matrix is colored by density.   
 
-<p align="center"> <img src ="Project1Figures/confusion_matrix.png"/> </p>
+<p align="center"> <img src ="Project1Figures/classification_matrix.png"/> </p>
 
-The following observations can be made regarding the confusion matrix:
+The following observations can be made regarding the classification matrix:
 - Very few respondents proclaim themselves to be upper class even if their income classes are.
 - Respondents from the lower income class are more likely to consider themselves working class than lower or middle class.
 - There are not many people in the working income class. Those who are mainly characterize themselves as working class.
 - Most respondents lie in the middle-income class and they mainly characterize themselves as either working (26%) or middle class (22.3%).
 - Respondents from the upper-income class are more likely to consider themselves middle (13.3%) and then working class (4.2%) compared to upper class (1.9%).
 
-Overall, the confusion matrix supports the subjective class PMF in that most respondents characterize themselves as middle or working class. Furthermore, income class does not wholly indicate subjective class. However, there are some discernable differences in subjective class based on income. For example, respondents in the lowest income class are more likely to consider themselves working class while respondents in the highest income class are more likely to consider themselves middle class.
+Overall, the classification matrix supports the subjective class PMF in that most respondents characterize themselves as middle or working class. Furthermore, income class does not wholly indicate subjective class. However, there are some discernable differences in subjective class based on income. For example, respondents in the lowest income class are more likely to consider themselves working class while respondents in the highest income class are more likely to consider themselves middle class.
 
 ### Analysis Replication
 

@@ -4,7 +4,7 @@
 
 ## Introduction
 In the Urban Institute report, [“The Growing Size and Incomes of the Upper Middle Class”](https://www.urban.org/sites/default/files/publication/81581/2000819-The-Growing-Size-and-Incomes-of-the-Upper-Middle-Class.pdf), Stephen Rose states that
-> People tend to live in communities with similar incomes, they view themselves as being near the middle because their neighbors’ circumstances are similar to their own even if their incomes are significantly below or above the US median.
+> Because people tend to live in communities with similar incomes, they view themselves as being near the middle because their neighbors’ circumstances are similar to their own even if their incomes are significantly below or above the US median.
 
 Back in my hometown, many people consider themselves middle class regardless of their incomes. However, whenever my parents or friends talked about class, I always assumed that they were referring to income class. I grew up thinking that income and subjective class were the same things. Now that I know about their differences, I am curious to see whether a discrepancy between subjective and income class exists throughout America. The main question that I want to answer in this project is
 

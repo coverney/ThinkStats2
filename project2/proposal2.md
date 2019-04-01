@@ -16,9 +16,9 @@ So far, we gathered and cleaned all of the data. For the CPS data, we had to wri
 
 After data cleaning, we started some initial analyses to answer our questions. We plotted the proportions of median female income to median white male income for different races from 1979 to 2018 (reference first figure below) and attempted ARAMA to predict the proportions till 2025. We found that the predictions were pretty inaccurate, so we will just predict the proportions for 2019 and possibly 2020. We also started data mining with IPUMS to identify the variables that produced the highest R^2 values for ordinary least squares regression with income as the dependent variable. Education, degree, and occupation resulted in the highest R^2 values. In terms of specific occupations, we found that in 2018 more women did jobs that paid the least (reference second figure below). From 2003 to 2018, the percent of women who are pharmacists, physicians and surgeons, and human resources managers increased the most. However, the pay gaps remained relatively flat even with more women working in those occupations.
 
-![proportion-female-to-male-income](https://github.com/coverney/ThinkStats2/blob/master/project2/proportion-female-to-male-income.png)
+![proportion-female-to-male-income](https://raw.githubusercontent.com/coverney/ThinkStats2/master/project2/proportion-female-to-male-income.png)
 
-![occupations-sex-segregation.jpg](https://github.com/coverney/ThinkStats2/blob/master/project2/occupations-sex-segregation.jpg.jpg)
+![occupations-sex-segregation.jpg](https://raw.githubusercontent.com/coverney/ThinkStats2/master/project2/occupations-sex-segregation.jpg)
 
 #### Next Steps
 
@@ -32,6 +32,6 @@ After data cleaning, we started some initial analyses to answer our questions. W
 
 #### Resources
 
-- “CPS Tables.” **U.S. Bureau of Labor Statistics**, U.S. Bureau of Labor Statistics, 18 Jan. 2019, [www.bls.gov/cps/tables.htm](http://www.bls.gov/cps/tables.htm).
-- “Table 3. Median Usual Weekly Earnings by Age, Race, Hispanic or Latino Ethnicity, and Sex.” **U.S. Bureau of Labor Statistics**, U.S. Bureau of Labor Statistics, 16 Sept. 2015, [www.bls.gov/webapps/legacy/cpswktab3.htm](http://www.bls.gov/webapps/legacy/cpswktab3.htm).
-- **IPUMS USA, University of Minnesota, www.ipums.org.**
+- “CPS Tables.” *U.S. Bureau of Labor Statistics*, U.S. Bureau of Labor Statistics, 18 Jan. 2019, [www.bls.gov/cps/tables.htm](http://www.bls.gov/cps/tables.htm).
+- “Table 3. Median Usual Weekly Earnings by Age, Race, Hispanic or Latino Ethnicity, and Sex.” *U.S. Bureau of Labor Statistics*, U.S. Bureau of Labor Statistics, 16 Sept. 2015, [www.bls.gov/webapps/legacy/cpswktab3.htm](http://www.bls.gov/webapps/legacy/cpswktab3.htm).
+- *IPUMS USA, University of Minnesota, www.ipums.org.*

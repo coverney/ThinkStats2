@@ -1,0 +1,311 @@
+                                            
+  Total fulltime wage and salary workers................................................   103,560    $651   58,406    $722   45,154      $585
+  Management, professional, and related occupations.....................................  36,908      937   18,311    1,113   18,597      813 
+      Management, business, and financial operations occupations........................  14,977      997    8,195    1,167    6,782      847 
+          Management occupations........................................................  10,340    1,083    6,219    1,230    4,122      902 
+              Chief executives..........................................................   1,043    1,834      790    1,903      253    1,413 
+              General and operations managers...........................................     754    1,099      528    1,152      226      932 
+              Advertising and promotions managers.......................................      66      870       28     (1)        38     (1)  
+              Marketing and sales managers..............................................     728    1,235      445    1,440      283      990 
+              Administrative services managers..........................................      73      978       51    1,104       22     (1)  
+              Computer and information systems managers.................................     326    1,428      227    1,540      100    1,094 
+              Financial managers........................................................     949    1,061      446    1,347      503      853 
+              Human resources managers..................................................     263    1,083       75    1,357      188      998 
+              Industrial production managers............................................     295    1,123      247    1,147       48     (1)  
+              Purchasing managers.......................................................     184    1,099      112    1,199       72      939 
+              Transportation, storage, and distribution managers........................     227      757      200      771       28     (1)  
+              Farm, ranch, and other agricultural managers..............................      77      680       65      689       13     (1)  
+              Construction managers.....................................................     430    1,051      400    1,060       30     (1)  
+              Education administrators..................................................     712    1,114      272    1,289      440      972 
+              Engineering managers......................................................      89    1,788       80    1,852        9     (1)  
+              Food service managers.....................................................     594      651      345      740      249      549 
+              Lodging managers..........................................................     100      647       48     (1)        52      525 
+              Medical and health services managers......................................     432    1,089      123    1,327      308    1,026 
+              Property, real estate, and community association managers.................     341      724      149      803      193      662 
+              Social and community service managers.....................................     258      838       82      990      176      784 
+          Business and financial operations occupations.................................   4,637      871    1,976    1,037    2,660      778 
+              Wholesale and retail buyers, except farm products.........................     153      802       77      930       75      708 
+              Purchasing agents, except wholesale, retail, and farm products............     271      785      126      912      145      710 
+              Claims adjusters, appraisers, examiners, and investigators................     276      789      102      971      174      706 
+              Compliance officers, except agriculture, construction, health,                                                       
+               safety, and transportation...............................................     128      893       71      877       57      923 
+              Cost estimators...........................................................      80      941       67      961       14     (1)  
+              Human resources, training, and labor relations specialists................     585      791      168      904      417      762 
+              Management analysts.......................................................     288    1,229      160    1,362      128      981 
+              Accountants and auditors..................................................   1,383      887      529    1,072      855      784 
+              Appraisers and assessors of real estate...................................      74      832       42     (1)        32     (1)  
+              Budget analysts...........................................................      50    1,050       14     (1)        35     (1)  
+              Financial analysts........................................................      74    1,136       41     (1)        33     (1)  
+              Personal financial advisors...............................................     270    1,134      188    1,239       83      888 
+              Insurance underwriters....................................................     110      894       31     (1)        79      851 
+              Loan counselors and officers..............................................     387      861      178      977      210      786 
+              Tax examiners, collectors, and revenue agents.............................      72      764       30     (1)        43     (1)  
+              Tax preparers.............................................................      52      668       16     (1)        36     (1)  
+      Professional and related occupations..............................................  21,931      902   10,116    1,058   11,815      792 
+          Computer and mathematical occupations.........................................   2,924    1,132    2,164    1,174      760    1,007 
+              Computer scientists and systems analysts..................................     647    1,091      449    1,140      198      983 
+              Computer programmers......................................................     524    1,086      391    1,129      133    1,014 
+              Computer software engineers...............................................     778    1,401      612    1,456      165    1,174 
+              Computer support specialists..............................................     310      823      215      809       95      858 
+              Database administrators...................................................      82    1,116       58    1,314       23     (1)  
+              Network and computer systems administrators...............................     201    1,058      166    1,072       34     (1)  
+              Network systems and data communications analysts..........................     254    1,062      195    1,082       59      952 
+              Operations research analysts..............................................      80    1,252       43     (1)        38     (1)  
+          Architecture and engineering occupations......................................   2,509    1,105    2,187    1,133      322      945 
+              Architects, except naval..................................................     176    1,146      134    1,147       42     (1)  
+              Aerospace engineers.......................................................      88    1,362       78    1,449       10     (1)  
+              Civil engineers...........................................................     277    1,138      239    1,166       37     (1)  
+              Computer hardware engineers...............................................      72    1,405       66    1,524        5     (1)  
+              Electrical and electronics engineers......................................     330    1,350      309    1,354       22     (1)  
+              Industrial engineers, including health and safety.........................     185    1,161      157    1,198       28     (1)  
+              Mechanical engineers......................................................     306    1,262      288    1,265       18     (1)  
+              Drafters..................................................................     186      769      144      783       42     (1)  
+              Engineering technicians, except drafters..................................     354      805      287      819       67      695 
+              Surveying and mapping technicians.........................................      98      735       96      742        2     (1)  
+          Life, physical, and social science occupations................................   1,164      965      712    1,073      452      837 
+              Biological scientists.....................................................     106      890       56    1,000       49     (1)  
+              Medical scientists........................................................     125      935       70      934       55      938 
+              Chemists and materials scientists.........................................     109    1,128       72    1,241       36     (1)  
+              Environmental scientists and geoscientists................................      87    1,217       66    1,223       21     (1)  
+              Market and survey researchers.............................................     106      997       52    1,138       54      898 
+              Psychologists.............................................................      83      966       32     (1)        50      909 
+              Chemical technicians......................................................      85      699       60      701       25     (1)  
+          Community and social services occupations.....................................   1,797      725      742      797    1,054      683 
+              Counselors................................................................     499      740      154      788      345      728 
+              Social workers............................................................     602      700      129      780      473      682 
+              Miscellaneous community and social service specialists....................     237      662       90      751      146      608 
+              Clergy....................................................................     385      785      335      813       49     (1)  
+          Legal occupations.............................................................   1,162    1,052      524    1,531      638      846 
+              Lawyers...................................................................     598    1,609      395    1,748      203    1,354 
+              Judges, magistrates, and other judicial workers...........................      73    1,101       43     (1)        30     (1)  
+              Paralegals and legal assistants...........................................     311      740       50      769      261      737 
+              Miscellaneous legal support workers.......................................     181      715       37     (1)       144      702 
+          Education, training, and library occupations..................................   6,066      798    1,660      960    4,405      753 
+              Postsecondary teachers....................................................     808    1,072      485    1,173      323      924 
+              Preschool and kindergarten teachers.......................................     515      521       19     (1)       495      520 
+              Elementary and middle school teachers.....................................   2,204      826      403      909    1,801      813 
+              Secondary school teachers.................................................   1,037      878      460      942      577      841 
+              Special education teachers................................................     382      868       55      949      327      853 
+              Other teachers and instructors............................................     306      728      120      803      187      657 
+              Librarians................................................................     163      829       25     (1)       137      826 
+              Teacher assistants........................................................     546      398       50      398      496      398 
+          Arts, design, entertainment, sports, and media occupations....................   1,488      819      865      885      623      735 
+              Artists and related workers...............................................      83      868       54      989       28     (1)  
+              Designers.................................................................     500      816      282      920      218      653 
+              Producers and directors...................................................      75      971       48     (1)        28     (1)  
+              Athletes, coaches, umpires, and related workers...........................     123      713      102      749       21     (1)  
+              Musicians, singers, and related workers...................................      51      893       38     (1)        13     (1)  
+              News analysts, reporters and correspondents...............................      62      866       31     (1)        31     (1)  
+              Public relations specialists..............................................     135      860       49     (1)        86      817 
+              Editors...................................................................     108      865       49     (1)        59      794 
+              Writers and authors.......................................................      70      887       27     (1)        43     (1)  
+              Broadcast and sound engineering technicians and radio operators...........      64      813       59      823        6     (1)  
+              Photographers.............................................................      53      721       34     (1)        19     (1)  
+          Healthcare practitioner and technical occupations.............................   4,821      878    1,262    1,043    3,560      834 
+              Dietitians and nutritionists..............................................      51      666        3     (1)        47     (1)  
+              Pharmacists...............................................................     185    1,557       96    1,597       89    1,483 
+              Physicians and surgeons...................................................     562    1,547      375    1,862      187    1,134 
+              Physician assistants......................................................      52    1,155       26     (1)        26     (1)  
+              Registered nurses.........................................................   1,805      935      151    1,011    1,654      930 
+              Occupational therapists...................................................      59      996        5     (1)        55      983 
+              Physical therapists.......................................................     117    1,036       43     (1)        74    1,014 
+              Respiratory therapists....................................................      80      854       34     (1)        46     (1)  
+              Speech-language pathologists..............................................      68      933        7     (1)        60      914 
+              Clinical laboratory technologists and technicians.........................     279      750       82      836      197      725 
+              Dental hygienists.........................................................      53      895        3     (1)        49     (1)  
+              Diagnostic related technologists and technicians..........................     212      873       67      973      145      789 
+              Emergency medical technicians and paramedics..............................     144      658      110      730       34     (1)  
+              Health diagnosing and treating practitioner support technicians...........     290      504       53      521      237      503 
+              Licensed practical and licensed vocational nurses.........................     401      625       31     (1)       369      621 
+              Medical records and health information technicians........................     104      543       15     (1)        88      522 
+  Service occupations...................................................................  14,123      413    7,024      478    7,099      379 
+      Healthcare support occupations....................................................   2,085      410      243      422    1,842      408 
+              Nursing, psychiatric, and home health aides...............................   1,334      388      153      406    1,181      385 
+              Dental assistants.........................................................     150      474        8     (1)       142      479 
+      Protective service occupations....................................................   2,549      678    2,025      729      525      514 
+              First-line supervisors/managers of police and detectives..................     121    1,009      105    1,010       15     (1)  
+              Fire fighters.............................................................     228      944      219      952        9     (1)  
+              Bailiffs, correctional officers, and jailers..............................     401      605      286      632      115      531 
+              Detectives and criminal investigators.....................................     119    1,054       88    1,188       31     (1)  
+              Police and sheriff's patrol officers......................................     669      826      573      849       97      738 
+              Private detectives and investigators......................................      68      662       39     (1)        29     (1)  
+              Security guards and gaming surveillance officers..........................     667      481      507      508      159      405 
+      Food preparation and serving related occupations..................................   4,007      356    2,041      371    1,966      337 
+              Chefs and head cooks......................................................     275      486      229      494       46     (1)  
+              First-line supervisors/managers of food preparation and serving workers...     451      422      179      522      272      398 
+              Cooks.....................................................................   1,198      336      766      350      433      314 
+              Food preparation workers..................................................     339      321      149      324      189      318 
+              Bartenders................................................................     210      420      102      422      107      417 
+              Combined food preparation and serving workers, including fast food........     132      310       34     (1)        98      308 
+              Counter attendants, cafeteria, food concession, and coffee shop...........      90      292       34     (1)        56      289 
+              Waiters and waitresses....................................................     848      352      292      384      556      332 
+              Food servers, nonrestaurant...............................................      82      409       40     (1)        42     (1)  
+              Dining room and cafeteria attendants and bartender helpers................     163      347       92      367       72      325 
+              Dishwashers...............................................................     141      296      112      293       29     (1)  
+              Hosts and hostesses, restaurant, lounge, and coffee shop..................      77      332       12     (1)        65      322 
+      Building and grounds cleaning and maintenance occupations.........................   3,425      394    2,176      428    1,249      344 
+              First-line supervisors/managers of housekeeping and janitorial work.......     177      537      120      613       57      433 
+              First-line supervisors/managers of landscaping, lawn service,                                                                   
+                and groundskeeping workers..............................................     101      593       98      598        3     (1)  
+              Janitors and building cleaners............................................   1,477      408    1,056      441      421      363 
+              Maids and housekeeping cleaners...........................................     829      335      105      390      724      328 
+              Pest control workers......................................................      55      508       54      511        1     (1)  
+              Grounds maintenance workers...............................................     787      389      744      393       43     (1)  
+      Personal care and service occupations.............................................   2,057      409      540      491    1,517      390 
+              First-line supervisors/managers of gaming workers.........................      81      628       40     (1)        41     (1)  
+              First-line supervisors/managers of personal service workers...............      58      577       27     (1)        31     (1)  
+              Nonfarm animal caretakers.................................................      57      379       14     (1)        43     (1)  
+              Gaming services workers...................................................      77      579       39     (1)        38     (1)  
+              Hairdressers, hairstylists, and cosmetologists............................     285      416       27     (1)       258      409 
+              Baggage porters, bellhops, and concierges.................................      60      457       49     (1)        11     (1)  
+              Transportation attendants.................................................      77      680       22     (1)        55      619 
+              Child care workers........................................................     444      332       30     (1)       414      330 
+              Personal and home care aides..............................................     402      390       75      442      328      381 
+              Recreation and fitness workers............................................     181      487       73      494      107      479 
+  Sales and office occupations..........................................................  25,193      575    9,539      690   15,654      520 
+      Sales and related occupations.....................................................  10,031      622    5,582      762    4,449      483 
+              First-line supervisors/managers of retail sales workers...................   2,365      631    1,386      723      979      525 
+              First-line supervisors/managers of non-retail sales workers...............     922      881      673      944      250      753 
+              Cashiers..................................................................   1,428      336      363      389    1,064      322 
+              Counter and rental clerks.................................................     102      429       55      589       48     (1)  
+              Parts salespersons........................................................     123      562      109      586       14     (1)  
+              Retail salespersons.......................................................   1,869      494    1,060      606      810      401 
+              Advertising sales agents..................................................     194      870       95    1,017       99      730 
+              Insurance sales agents....................................................     341      742      162      908      178      624 
+              Securities, commodities, and financial services sales agents..............     288    1,007      195    1,239       93      733 
+              Travel agents.............................................................      56      593       11     (1)        46     (1)  
+              Sales representatives, services, all other................................     369      814      257      919      112      648 
+              Sales representatives, wholesale and manufacturing........................   1,140      920      851      960      289      737 
+              Real estate brokers and sales agents......................................     489      773      213      989      275      716 
+              Telemarketers.............................................................      98      367       28     (1)        70      360 
+              Door-to-door sales workers, news and street vendors, and related                                                                
+                workers.................................................................      66      422       46     (1)        21     (1)  
+      Office and administrative support occupations.....................................  15,161      550    3,957      605   11,205      533 
+              First-line supervisors/managers of office and administrative support......   1,399      686      447      796      953      656 
+              Bill and account collectors...............................................     175      518       60      516      115      519 
+              Billing and posting clerks and machine operators..........................     355      572       42     (1)       313      566 
+              Bookkeeping, accounting, and auditing clerks..............................     964      555      102      580      861      551 
+              Payroll and timekeeping clerks............................................     136      613       12     (1)       123      611 
+              Tellers...................................................................     296      426       26     (1)       270      425 
+              Court, municipal, and license clerks......................................      95      575       14     (1)        81      571 
+              Credit authorizers, checkers, and clerks..................................      64      607       15     (1)        49     (1)  
+              Customer service representatives..........................................   1,490      524      480      624    1,010      505 
+              File clerks...............................................................     255      507       54      513      201      505 
+              Hotel, motel, and resort desk clerks......................................     107      376       41     (1)        66      367 
+              Interviewers, except eligibility and loan.................................     128      502       29     (1)        99      501 
+              Library assistants, clerical..............................................      58      517        5     (1)        54      496 
+              Loan interviewers and clerks..............................................     179      623       45     (1)       134      614 
+              Order clerks..............................................................     120      519       42     (1)        77      509 
+              Human resources assistants, except payroll and timekeeping................      60      601        5     (1)        55      580 
+              Receptionists and information clerks......................................     923      466       76      504      846      463 
+              Reservation and transportation ticket agents and travel clerks............     134      626       44     (1)        90      586 
+              Couriers and messengers...................................................     212      664      182      678       31     (1)  
+              Dispatchers...............................................................     274      584      105      613      168      556 
+              Postal service clerks.....................................................     147      791       89      830       58      750 
+              Postal service mail carriers..............................................     295      832      185      874      110      733 
+              Postal service mail sorters, processors, and processing machine                                                                 
+                operators...............................................................     109      751       59      763       50      742 
+              Production, planning, and expediting clerks...............................     275      694      123      767      152      650 
+              Shipping, receiving, and traffic clerks...................................     472      488      334      504      138      450 
+              Stock clerks and order fillers............................................   1,012      427      651      448      361      409 
+              Weighers, measurers, checkers, and samplers, recordkeeping................      60      467       26     (1)        35     (1)  
+              Secretaries and administrative assistants.................................   2,684      562       73      654    2,611      559 
+              Computer operators........................................................     164      599       76      674       89      541 
+              Data entry keyers.........................................................     403      509       79      529      324      507 
+              Word processors and typists...............................................     216      500       10     (1)       206      499 
+              Insurance claims and policy processing clerks.............................     238      560       35     (1)       204      565 
+              Mail clerks and mail machine operators except postal service..............      99      508       47     (1)        52      480 
+              Office clerks, general....................................................     672      518       98      591      574      509 
+  Natural resources, construction, and maintenance occupations..........................  12,086      623   11,569      628      517      486 
+      Farming, fishing, and forestry occupations........................................     755      372      601      388      154      327 
+              Graders and sorters, agricultural products................................      63      402       15     (1)        48     (1)  
+              Logging workers...........................................................      64      483       62      485        2     (1)  
+      Construction and extraction occupations...........................................   6,826      604    6,663      606      163      480 
+              First-line supervisors/managers of construction trades and extraction                                                           
+                workers.................................................................     645      830      626      839       20     (1)  
+              Brickmasons, blockmasons, and stonemasons.................................     166      598      166      598  -        -       
+              Carpenters................................................................   1,213      556    1,196      559       17     (1)  
+              Carpet, floor, and tile installers and finishers..........................     178      482      176      484        2     (1)  
+              Cement masons, concrete finishers, and terrazzo workers...................      90      519       88      518        2     (1)  
+              Construction laborers.....................................................   1,170      502    1,132      504       38     (1)  
+              Operating engineers and other construction equipment operators............     367      733      356      735       11     (1)  
+              Drywall installers, ceiling tile installers, and tapers...................     185      511      184      510        1     (1)  
+              Electricians..............................................................     747      713      734      712       13     (1)  
+              Painters, construction and maintenance....................................     384      466      367      469       17     (1)  
+              Pipelayers, plumbers, pipefitters, and steamfitters.......................     550      703      547      704        2     (1)  
+              Roofers...................................................................     209      500      203      503        6     (1)  
+              Sheet metal workers.......................................................     127      653      123      655        4     (1)  
+              Structural iron and steel workers.........................................      58      772       57      768        1     (1)  
+              Helpers, construction trades..............................................     110      437      108      430        2     (1)  
+              Construction and building inspectors......................................      84      791       75      824        9     (1)  
+              Highway maintenance workers...............................................      86      581       83      575        3     (1)  
+      Installation, maintenance, and repair occupations.................................   4,504      705    4,305      706      199      691 
+              First-line supervisors/managers of mechanics, installers, and repairers...     307      814      289      817       18     (1)  
+              Computer, automated teller, and office machine repairers..................     336      753      291      749       45     (1)  
+              Radio and telecommunications equipment installers and repairers...........     206      861      177      858       29     (1)  
+              Security and fire alarm systems installers................................      56      705       53      730        3     (1)  
+              Aircraft mechanics and service technicians................................     137      919      129      920        8     (1)  
+              Automotive body and related repairers.....................................     137      587      135      579        2     (1)  
+              Automotive service technicians and mechanics..............................     724      629      711      631       13     (1)  
+              Bus and truck mechanics and diesel engine specialists.....................     326      694      325      693        1     (1)  
+              Heavy vehicle and mobile equipment service technicians and mechanics......     218      726      216      727        1     (1)  
+              Heating, air conditioning, and refrigeration mechanics and installers.....     314      693      311      694        3     (1)  
+              Industrial and refractory machinery mechanics.............................     444      724      430      724       14     (1)  
+              Maintenance and repair workers, general...................................     305      631      294      635       11     (1)  
+              Millwrights...............................................................      58      824       55      891        3     (1)  
+              Electrical power-line installers and repairers............................     105      868      102      875        4     (1)  
+              Telecommunications line installers and repairers..........................     145      788      136      780        9     (1)  
+              Precision instrument and equipment repairers..............................      54      819       50      877        4     (1)  
+  Production, transportation, and material moving occupations...........................  15,251      540   11,963      591    3,288      420 
+      Production occupations............................................................   8,403      538    5,991      608    2,412      423 
+              First-line supervisors/managers of production and operating workers.......     825      761      662      817      162      545 
+              Electrical, electronics, and electromechanical assemblers.................     195      473       79      528      117      441 
+              Bakers....................................................................     117      411       58      480       59      357 
+              Butchers and other meat, poultry, and fish processing workers.............     262      444      206      471       56      400 
+              Food batchmakers..........................................................      71      465       44     (1)        26     (1)  
+              Computer control programmers and operators................................      54      697       49     (1)         5     (1)  
+              Cutting, punching, and press machine setters, operators, and tenders......     120      502       90      533       30     (1)  
+              Grinding, lapping, polishing, and buffing machine tool setters,                                                                 
+                operators...............................................................      55      557       48     (1)         7     (1)  
+              Machinists................................................................     401      697      376      712       25     (1)  
+              Molders and molding machine setters, operators, and tenders, metal........      60      529       46     (1)        13     (1)  
+              Tool and die makers.......................................................      91      821       91      824        1     (1)  
+              Welding, soldering, and brazing workers...................................     550      599      518      608       32     (1)  
+              Printing machine operators................................................     201      585      170      617       30     (1)  
+              Laundry and dry-cleaning workers..........................................     125      372       43     (1)        82      347 
+              Sewing machine operators..................................................     236      360       64      372      171      355 
+              Cabinetmakers and bench carpenters........................................      53      516       50      518        4     (1)  
+              Sawing machine setters, operators, and tenders, wood......................      54      428       48     (1)         6     (1)  
+              Stationary engineers and boiler operators.................................     108      819      105      797        2     (1)  
+              Water and liquid waste treatment plant and system operators...............      69      674       67      710        2     (1)  
+              Chemical processing machine setters, operators, and tenders...............      56      769       50      717        7     (1)  
+              Crushing, grinding, polishing, mixing, and blending workers...............      95      498       84      503       11     (1)  
+              Cutting workers...........................................................      94      496       72      525       22     (1)  
+              Inspectors, testers, sorters, samplers, and weighers......................     618      596      380      679      237      486 
+              Medical, dental, and ophthalmic laboratory technicians....................      76      545       39     (1)        37     (1)  
+              Packaging and filling machine operators and tenders.......................     291      410      132      452      159      384 
+              Painting workers..........................................................     177      562      155      592       23     (1)  
+              Paper goods machine setters, operators, and tenders.......................      58      603       42     (1)        16     (1)  
+      Transportation and material moving occupations....................................   6,848      543    5,972      574      876      412 
+              Supervisors, transportation and material moving workers...................     194      734      164      751       29     (1)  
+              Aircraft pilots and flight engineers......................................      98    1,366       92    1,368        6     (1)  
+              Bus drivers...............................................................     353      517      213      576      141      456 
+              Driver/sales workers and truck drivers....................................   2,758      624    2,657      631      101      473 
+              Taxi drivers and chauffeurs...............................................     179      483      155      500       24     (1)  
+              Locomotive engineers and operators........................................      53      998       52    1,013        1     (1)  
+              Railroad conductors and yardmasters.......................................      50    1,017       50    1,017  -        -       
+              Service station attendants................................................      68      323       59      333        9     (1)  
+              Crane and tower operators.................................................      69      727       66      727        2     (1)  
+              Dredge, excavating, and loading machine operators.........................      67      616       67      616  -        -       
+              Industrial truck and tractor operators....................................     514      499      483      494       31     (1)  
+              Cleaners of vehicles and equipment........................................     224      385      197      390       27     (1)  
+              Laborers and freight, stock, and material movers, hand....................   1,384      456    1,173      469      210      406 
+              Packers and packagers, hand...............................................     377      372      137      406      240      358 
+              Refuse and recyclable material collectors.................................      66      491       62      501        4     (1)  
+
+ 
+
+
+
+
+

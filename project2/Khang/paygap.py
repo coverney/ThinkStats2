@@ -8,9 +8,9 @@ from statsmodels.tsa.api import Holt
 
 colors = ['crimson', 'goldenrod', 'green', 'navy']
 
-def ReadBLS(filename='Data/weeklyincome_occupation_gender_2018.xlsx'):
+def ReadBLS(filename='Data/weeklyincome_occupation_gender_clean_2018.xlsx'):
     bls = pd.read_excel(filename)
-    bls.replace(' ', np.nan, inplace=True)
+    bls.replace('-', np.nan, inplace=True)
     bls = bls.dropna()
     bls = bls.copy()
     for col in bls.columns:

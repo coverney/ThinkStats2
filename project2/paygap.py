@@ -31,7 +31,7 @@ def ShowTableResult(df, title=None):
     cm = sns.light_palette("green", as_cmap=True)
     df_copy = df.copy()
     df_copy['Weekly Pay'] = df_copy['Weekly Pay'].astype(object) # convert to object so that we don't color this column
-    return df_copy.style.format({'Percent Female' : '{:.2f}%', 'Weekly Pay' : '${:,.0f}'}).hide_index().set_caption(title).background_gradient(cmap=cm)
+    return df_copy.style.format({'Percent Female' : '{:.2f}%', 'Weekly Pay' : '${:,.0f}'}).set_caption(title).background_gradient(cmap=cm)
 
 def PlotDataWithRegression(ax, work_force, col='AGE', col_describe='Age'):
     # Plot data

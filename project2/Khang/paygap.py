@@ -3,6 +3,7 @@ import thinkplot
 import thinkstats2
 import numpy as np
 import matplotlib.pyplot as plt
+import statsmodels.formula.api as smf
 import seaborn as sns
 from statsmodels.tsa.api import Holt
 
@@ -32,6 +33,34 @@ def ShowTableResult(df, title=None):
     df_copy['Weekly Pay'] = df_copy['Weekly Pay'].astype(object) # convert to object so that we don't color this column
     return df_copy.style.format({'Percent Female' : '{:.2f}%', 'Weekly Pay' : '${:,.0f}'}).hide_index().set_caption(title).background_gradient(cmap=cm)
 
+def PlotDataWithRegression(ax, work_force, col='AGE', col_describe='Age'):
+    # Plot data
+    grouped = work_force.groupby(col)
+    mean_income_by_group = grouped['HRLY_INCWAGE'].mean()
+    ax.plot(mean_income_by_group, 'o', alpha=0.5, label='data')
+    ax.set(ylabel='Mean hourly wage', xlabel=col_describe)
+
+    # Plot predicted male and female
+    formula = 'HRLY_INCWAGE ~ C(SEX) + '
+    formula += col + ' + ' + col + '2 + ' + col + '3 + ' + col + '4 + '
+    model = smf.ols(formula[:-3], data=work_force)
+    results = model.fit()
+
+    df = pd.DataFrame()
+    df[col] = np.linspace(work_force[col].min(), work_force[col].max(), len(work_force[col]))
+    df[col+'2'] = df[col]**2
+    df[col+'3'] = df[col]**3
+    df[col+'4'] = df[col]**4
+
+    df['SEX'] = 1
+    pred = results.predict(df)
+    ax.plot(df[col], pred, label='male')
+
+    df['SEX'] = 0
+    pred = results.predict(df)
+    ax.plot(df[col], pred, label='female') 
+    ax.legend();
+    
 # CREDIT: Allen Downey's thinkplot.py
 def set_font_size(title_size=16, label_size=16, ticklabel_size=14, legend_size=14, ax=plt.gca()):
     """Set font sizes for the title, labels, ticklabels, and legend.

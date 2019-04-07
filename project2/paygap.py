@@ -33,7 +33,11 @@ def ShowTableResult(df, title=None):
     df_copy['Weekly Pay'] = df_copy['Weekly Pay'].astype(object) # convert to object so that we don't color this column
     return df_copy.style.format({'Percent Female' : '{:.2f}%', 'Weekly Pay' : '${:,.0f}'}).set_caption(title).background_gradient(cmap=cm)
 
-def PlotDataWithRegression(ax, work_force, col='AGE', col_describe='Age'):
+def PlotDataWithRegression(ax, df, col='AGE', col_describe='Age'):
+    work_force = df.copy()
+    for power in '234':
+        work_force[col+power] = work_force[col]**int(power)
+        
     # Plot data
     grouped = work_force.groupby(col)
     mean_income_by_group = grouped['HRLY_INCWAGE'].mean()

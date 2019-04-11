@@ -25,18 +25,10 @@ The term “usual” means as perceived by the respondent. The estimation compon
 The data for median weekly income for males and females of different occupations is [here](https://www.bls.gov/cps/tables.htm). Occupation describes a person's job or the type of work they do and are based on the job they held during the survey [reference week](https://www.bls.gov/cps/definitions.htm#refweek). The median incomes are derived from annual average data.
 
 #### IPUMS
-For regression analysis, we downloaded respondent CPS data from [IPUMS USA](https://usa.ipums.org/usa/cite.shtml) for 2017.
+For regression analysis, we downloaded respondent CPS data from [IPUMS USA](https://usa.ipums.org/usa/cite.shtml) for 2017. IPUMS provides annual wage from the prior calendar year, along with the number of weeks the respondent worked during the previous year and the usual hours worked per week. From these variables, we estimate hourly wages for 1.2 million respondents who work more than 30 hours a week for at least 27 weeks in 2017. We also eliminate all hourly income values below $2.0 because most of them are probably errors.
 
-As part of the licensing agreement for use of IPUMS USA data, we added a citation of our report to the [IPUMS bibliography](https://bibliography.ipums.org/). IPUMS directly collected its 2017 data from the Bureau of Census. We did all of our IPUMS analysis on 1.5 million employed full time workers. The variables we study include:
-- `INCWAGE`: reports each respondent's total pre-tax wage and salary income - that is, money received as an employee - for the previous year.
-- `WKSWORK2`: reports the number of weeks that the respondent worked for profit, pay, or as an unpaid family worker during the previous year.
-- `UHRSWORK`:  reports the number of hours per week that the respondent usually worked, if the person worked during the previous year.
-- `DEGFIELDD`: reports the field in which the person received a Bachelor's degree, if the person holds a Bachelor's degree.
-- `OCC2010`: reports the occupation of the respondent using [the Census Bureau's 2010 ACS occupation classification scheme](https://usa.ipums.org/usa/volii/occ_acs.shtml).
-- `RACED`: reports respondents’ races in full detail.
-- `IND`: reports the type of industry in which the person performed an occupation.
+As part of the licensing agreement for use of IPUMS USA data, we added a citation of our report to the [IPUMS bibliography](https://bibliography.ipums.org/). IPUMS directly collected its 2017 data from the Bureau of Census.
 
-IPUMS provides annual wage from the prior calendar year, along with the number of weeks the respondent worked during the previous year and the usual hours worked per week. From these variables, we estimate an hourly wage, `HRLY_INCWAGE`, for respondents who work more than 30 hours a week for at least 27 weeks in 2017. We also eliminate all hourly income values below $2.0 because most of them are probably errors.
 
 ### What Causes the Gender Pay Gap?
 As of 2018, women still earn just 81% of what men make. 81% corresponds to the proportion of median weekly female income ($789) to median weekly male income ($973). The pay gap persists, despite more women earning college degrees and entering the workforce at higher pay rates, because of several factors, one of the largest being sex segregation. Sex segregation corresponds to the division between which occupations and industries men and women tend to work in.  

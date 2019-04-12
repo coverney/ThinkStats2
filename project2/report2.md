@@ -69,16 +69,16 @@ Since both of us are going to enter the workforce soon as engineers, we are curi
 
 |                        Occupation                       | 2018 Percent Female (%) | Relative Percent Female Change (%) |
 |:-------------------------------------------------------:|:-----------------------:|:----------------------------------:|
-| <u>Computer support specialists</u>                            |          27.13%         |               -23.58%              |
+| <ins>Computer support specialists</ins>                            |          27.13%         |               -23.58%              |
 | Advertising sales agents                                |          46.75%         |               -23.51%              |
 | Sales representatives services all other                |          26.46%         |               -21.55%              |
-| <u>Computer programmers</u>                                    |          21.26%         |               -20.15%              |
-| <u>Electrical electronics and electromechanical assemblers</u> |          48.18%         |               -20.02%              |
+| <ins>Computer programmers</ins>                                    |          21.26%         |               -20.15%              |
+| <ins>Electrical electronics and electromechanical assemblers</ins> |          48.18%         |               -20.02%              |
 | Installation maintenance and repair occupations         |          3.32%          |               -18.39%              |
-| <u>Computer and information systems managers</u>               |          25.46%         |               -14.88%              |
+| <ins>Computer and information systems managers</ins>               |          25.46%         |               -14.88%              |
 | Inspectors testers sorters samplers and weighers        |          35.32%         |               -12.05%              |
 | Other teachers and instructors                          |          55.41%         |               -10.61%              |
-| <u>Computer and mathematical occupations</u>                   |          24.90%         |               -10.59%              |
+| <ins>Computer and mathematical occupations</ins>                   |          24.90%         |               -10.59%              |
 
 Five of the ten occupations above are STEM related.
 

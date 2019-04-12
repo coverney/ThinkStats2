@@ -26,13 +26,13 @@ As part of the licensing agreement for use of IPUMS USA data, we added a citatio
 ### What Causes the Gender Pay Gap?
 As of 2018, women still earn just 81% of what men make. 81% corresponds to the proportion of median weekly female income ($789) to median weekly male income ($973). The pay gap persists, despite more women earning college degrees and entering the workforce at higher pay rates, because of several factors, one of the largest being sex segregation. Sex segregation corresponds to the division between which occupations and industries men and women tend to work in.  
 
-We used the Blinder–Oaxaca decomposition to analyze the 2017 IPUMS USA data and quantify the impact that different factors have on the gender pay gap. Factors attributed to extending the pay gap includes occupation (+21%), degree (+4.6%), industry (+2%), and race (+1.1%), while education is the only factor that narrows the pay gap (-5.6%).
+We used the Blinder–Oaxaca decomposition to analyze the 2017 IPUMS USA data and to quantify the impact that different factors have on the gender pay gap. Factors attributed to extending the pay gap include occupation (+21%), degree (+4.6%), industry (+2%), and race (+1.1%), while education is the only factor that narrows the pay gap (-5.6%).
 
 <p align="center"> <img src="Images/factor_contribute_to_gender_pay_gap.png"/> </p>
 
-[The Blinder–Oaxaca decomposition](https://en.wikipedia.org/wiki/Blinder%E2%80%93Oaxaca_decomposition) provides a way to analyze the mean income gap by deconstructing the gap into explained and unexplained factors. For each explanatory variable, we calculate the explained percentage that contributes to the general total pay gap. As a simple example, we view education as an explained factor that helps reduce the pay gap. In 2017, women have a higher mean education level than men, according to the IPUMS data. If we give a woman, who has a mean female education level (~15 years), the same privilege as a man having a mean male education level (~14 years), she would earn more than the average man because she has higher education. This explains how education reduces the pay gap by 5.6%. For other factors like occupation and industry, which are not encoded in a way that allows us to take the means of the male and female groups, we sort them ascendingly based on the mean hourly income and re-encode them accordingly. As a result, the mean female occupation and industry code will reflect the common occupation and industry that attract more women than men and correspond to sex segregation. The proportion attributable to sex segregation can be found by adding the proportions associated with occupation and industry, resulting in 23%. The remaining 77% corresponds to the unexplained factors that contribute to the gender pay gap (e.g. discrimination).
+[The Blinder–Oaxaca decomposition](https://en.wikipedia.org/wiki/Blinder%E2%80%93Oaxaca_decomposition) provides a way to analyze the mean income gap by deconstructing the gap into explained and unexplained factors. For each explanatory variable, we calculate the explained percentage that contributes to the general total pay gap. As a simple example, we view education as an explained factor that helps reduce the pay gap. In 2017, women have a higher mean education level than men, according to the IPUMS data. If we give a woman, who has a mean female education level (~15 years), the same privileges as a man having a mean male education level (~14 years), she would earn more than the average man because she has higher education. This explains how education reduces the pay gap by 5.6%. For other factors like occupation and industry, which are not encoded in a way that allows us to take the means of the male and female groups, we sort them ascendingly based on the mean hourly income and re-encode them accordingly. As a result, the mean female occupation and industry codes reflect the common occupation and industry that attract more women than men and correspond to sex segregation. The proportion attributable to sex segregation can be found by adding the proportions associated with occupation and industry, resulting in 23%. The remaining 77% corresponds to the unexplained factors that contribute to the gender pay gap, such as discrimination.
 
-Furthermore, for some occupations, especially management positions, when women become more represented, the pays for those jobs tend to go down. Using CPS data from 2003 to 2018, we examine the relationship between sex segregation and pay for both males and females over time. The occupations with increasing percentages of females and decreasing median weekly incomes (ordered by relative weekly pay change) include:
+Furthermore, for some occupations, especially management positions, when women become more represented, the pays for those jobs tend to go down. Using CPS data from 2003 to 2018, we examine the relationship between sex segregation and pay for both males and females over time. Below is a table of occupations with increasing percentages of females and decreasing median weekly incomes (ordered by relative weekly pay change):
 
 **Occupations with more female entering but decreasing weekly pay**
 
@@ -51,7 +51,7 @@ Even more alarming, sex segregation has a negative impact on gender pay gap sinc
 
 <p align="center"> <img src="Images/lowest_highest_pay_and_percent_female.jpg"/> </p>    
 
-Of the 10 highest paid occupations in America, just four have at least 40% females with only Pharmacists having more than 50% female. Of the 10 lowest paid occupations, they all have at least 40% females. Personal care aides and maids have over 80% female. This shows that women are doing the jobs that pay the least.     
+Of the 10 highest paid occupations in America, just four have at least 40% females with only Pharmacists having more than 50% females. Of the 10 lowest paid occupations, they all have at least 40% females. Personal care aides and maids have over 80% females. This shows that women are doing the jobs that pay the least.     
 
 ### Unequal Pay Gap for Women of Different Races
 The gender pay gap is not the same for all women. It is worse for some minorities, especially black and Hispanic women. To visualize the differences in pay gap for women of different races, we use CPS median weekly incomes for varying genders and races from 1979 to 2018. We plot the proportions of female income compared to white male income for each race. We pick white male income since it is the highest weekly income that is represented for the entire time period.   
@@ -60,31 +60,33 @@ The gender pay gap is not the same for all women. It is worse for some minoritie
 
 None of the lines have proportions greater than or equal to 1. Asian women income is closest to white male income with proportions ranging from around 0.8 to 0.95. White women have proportions ranging from 0.6 to 0.8. Black and Hispanic women make a little more than half of what white men make.
 
-Though the pay gap has narrowed over time, it is still divided by race. In recent years, race plays an even larger role in explaining the pay gap than it did 40 years ago. While white and Asian female incomes have moved much closer to white male incomes, black and Hispanic women have not seen as much of a decrease in their pay gaps. This could be due to differences in occupations and education levels.
+Though the pay gap has narrowed over time, it is still divided by race. In recent years, race plays an even larger role in explaining the pay gap than it did 40 years ago. While white and Asian female incomes have moved much closer to white male incomes, black and Hispanic women have not seen as much of an improvement in their pay gaps. This could be due to differences in occupations and education levels.
 
 ### We Need More Women in STEM!
-Since both of us are going to enter the workforce soon as engineers, we wanted to study whether sex segregation and gender pay gap improved for different STEM occupations. Despite efforts in encouraging young women to enter STEM fields, STEM occupations have some of the highest decreases in female representation. With CPS data from 2003 to 2018, we generate a table of the occupations with the most negative relative percent female changes, sorted in ascending order. Relative percent female change is found by first finding the difference between the proportion of women working in a certain occupation in 2018 with the proportion in 2003 and then dividing the absolute difference by the proportion in 2003.              
+Since both of us are going to enter the workforce soon as engineers, we are curious to see whether sex segregation and gender pay gap improved for different STEM occupations. Despite efforts in encouraging young women to enter STEM fields, STEM occupations have some of the highest decreases in female representation. With CPS data from 2003 to 2018, we generate a table of the occupations with the most negative relative percent female changes, sorted in ascending order. Relative percent female change is found by first finding the difference between the proportion of women working in a certain occupation in 2018 with the proportion in 2003 and then dividing the absolute difference by the proportion in 2003.              
 
 **Occupations with decreasing female representation**
 
 |                        Occupation                       | 2018 Percent Female (%) | Relative Percent Female Change (%) |
 |:-------------------------------------------------------:|:-----------------------:|:----------------------------------:|
-| Computer support specialists                            |          27.13%         |               -23.58%              |
+| <u>Computer support specialists</u>                            |          27.13%         |               -23.58%              |
 | Advertising sales agents                                |          46.75%         |               -23.51%              |
 | Sales representatives services all other                |          26.46%         |               -21.55%              |
-| Computer programmers                                    |          21.26%         |               -20.15%              |
-| Electrical electronics and electromechanical assemblers |          48.18%         |               -20.02%              |
+| <u>Computer programmers</u>                                    |          21.26%         |               -20.15%              |
+| <u>Electrical electronics and electromechanical assemblers</u> |          48.18%         |               -20.02%              |
 | Installation maintenance and repair occupations         |          3.32%          |               -18.39%              |
-| Computer and information systems managers               |          25.46%         |               -14.88%              |
+| <u>Computer and information systems managers</u>               |          25.46%         |               -14.88%              |
 | Inspectors testers sorters samplers and weighers        |          35.32%         |               -12.05%              |
 | Other teachers and instructors                          |          55.41%         |               -10.61%              |
-| Computer and mathematical occupations                   |          24.90%         |               -10.59%              |
+| <u>Computer and mathematical occupations</u>                   |          24.90%         |               -10.59%              |
+
+Five of the ten occupations above are STEM related.
 
 An example of an occupation with a decrease in the proportion of females and gender pay gap is software developers. We visualize these relationships with a two-scale plot of percent female and pay gap from 2003 to 2018.    
 
 <p align="center"> <img src="Images/software_developers.png"/> </p>
 
-For software developers, as the percentage of women in the occupation decreases over time, the pay gap between male and female median income also decreases. The percentage of female software developers decreased from around 22.3% to 20.3% (8.8% decrease), while the pay gap decreased from \\$453 to \\$250 (44.8% decrease). This means that as women become less represented in these jobs, men continue to make more, but the differences are lower now than they were in the past. This could potentially be due to the increasing awareness of gender imbalance within high tech companies. In recent years, women began to file lawsuits against companies like [Google](https://money.cnn.com/2018/01/03/technology/google-gender-pay-lawsuit-revised/index.html), [Oracle](https://www.wired.com/story/analysis-finds-oracle-paid-women-13000-less-than-men/), and [Uber](https://www.forbes.com/sites/bizcarson/2017/10/26/three-women-engineers-sue-uber-claiming-unequal-pay-discrimination/#2999778d5bd7), accusing the companies of paying them less than men.   
+For software developers, as the percentage of women in the occupation decreases over time, the pay gap between male and female median income also decreases. The percentage of female software developers decreased from around 22.3% to 20.3% (8.8% decrease), while the pay gap decreased from $453 to $250 (44.8% decrease). This means that as women become less represented in these jobs, men continue to make more, but the differences are lower now than they were in the past. This could potentially be due to the increasing awareness of gender imbalance within high tech companies. In recent years, women began to file lawsuits against companies like [Google](https://money.cnn.com/2018/01/03/technology/google-gender-pay-lawsuit-revised/index.html), [Oracle](https://www.wired.com/story/analysis-finds-oracle-paid-women-13000-less-than-men/), and [Uber](https://www.forbes.com/sites/bizcarson/2017/10/26/three-women-engineers-sue-uber-claiming-unequal-pay-discrimination/#2999778d5bd7), accusing the companies of paying them less than men.   
 
 ### Conclusions
 Our findings can be summarized with the following:
@@ -98,7 +100,7 @@ Our findings can be summarized with the following:
 The gender pay gap is still an important issue that will take a substantial amount of time to resolve. Women have already made a lot of progress on the individually controllable factors that contribute to pay gap, such as education. However, these changes are not enough to erase the pay gap or to cause a paradigm shift in how society and employers value the work women do compared to men.
 
 Some potential next steps include:
-- Delving into more recent STEM occupation data to see how effective various women in STEM programs are. For example, we could ask where the first cohort of Girls Who Code members go when they enter the workforce.  
+- Delving into more recent STEM occupation data to see how effective various women in STEM programs are. For example, we could ask where the first cohort of [Girls Who Code](https://girlswhocode.com/) members go when they enter the workforce.  
 - Comparing the gender pay gap in the US with the pay gaps in other countries. Some interesting articles on this topic can be found [here](https://www.weforum.org/agenda/2017/11/pay-equality-men-women-gender-gap-report-2017/) and [here](https://www.weforum.org/agenda/2019/04/gender-pay-gap-eight-countries/).  
 
 ## Resources

@@ -1,7 +1,7 @@
 # Machine Learning with Two Hearts
 ### Cassandra Overney and Khang Vu
 
-We will be participating in one of the DrivenData competitions, [Machine Learning with a Heart](https://www.drivendata.org/competitions/54/machine-learning-with-a-heart/page/109/), which strives to use data science to detect heart disease, the number one cause of death worldwide. The task is to predict the presence or absence of heart disease given various data about a patient, such as resting blood pressure, maximum heart rate, EKG readings, sex, and age. The data comes from the Statlog Heart dataset, which is part of the [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/statlog+(heart).
+We will be participating in one of the DrivenData competitions, [Machine Learning with a Heart](https://www.drivendata.org/competitions/54/machine-learning-with-a-heart/page/109/), which strives to use data science to detect heart disease, the number one cause of death worldwide. The task is to predict the presence or absence of heart disease given various data about a patient, such as resting blood pressure, maximum heart rate, EKG readings, sex, and age. The data comes from the Statlog Heart dataset, which is part of the [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/statlog+(heart)).
 
 The UCI Machine Learning Repository contains a collection of datasets that are used by the machine learning community to analyze machine learning algorithms. The datasets in this repository are open to the public. According to the citation policy, we need to include a citation when publishing material based on their data (reference resources section).       
 

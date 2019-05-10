@@ -6,7 +6,7 @@ Recently, there has been an increase in using machine learning techniques to add
 
 Using data from the [Machine Learning with a Heart](https://www.drivendata.org/competitions/54/machine-learning-with-a-heart/page/109/) DrivenData competition, we found that logistic regression results in higher accuracy for predicting the presence of heart disease compared to more complicated machine learning techniques.
 
-The Machine Learning with a Heart competition uses the Statlog Heart dataset, which is part of the [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/statlog+(heart). The terms of use are [here](http://archive.ics.uci.edu/ml/citation_policy.html). The data has 14 variables including:
+The Machine Learning with a Heart competition uses the Statlog Heart dataset, which is part of the [UCI Machine Learning Repository](http://archive.ics.uci.edu/ml/datasets/statlog+(heart)). The terms of use are [here](http://archive.ics.uci.edu/ml/citation_policy.html). The data has 14 variables including:
 - `heart_disease_present` (type: `binary`): whether the patient has heart disease or not
 - `slope_of_peak_exercise_st_segment` (type: `int`): the slope of the peak exercise [ST segment](https://en.wikipedia.org/wiki/ST_segment), an electrocardiography read out indicating quality of blood flow to the heart
 - `thal` (type: `categorical`): results of [thallium stress test](https://www.ucsfbenioffchildrens.org/tests/007201.html) measuring blood flow to the heart, with possible values normal, fixed_defect, reversible_defect
